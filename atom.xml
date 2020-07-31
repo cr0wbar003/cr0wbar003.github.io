@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cr0wbar003.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-31T15:37:03.009Z</updated>
+    <updated>2020-07-31T15:46:40.289Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cr0wbar003.github.io"/>
     <link rel="self" href="https://cr0wbar003.github.io/atom.xml"/>
@@ -16,8 +16,7 @@
         <link href="https://cr0wbar003.github.io/post/cong-tou-kai-shi-xue-javayi/">
         </link>
         <updated>2020-07-31T14:49:47.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://cr0wbar003.github.io/post-images/1596209694117.png" alt="" loading="lazy"></figure>
-<h2 id="配置springboot的一个小demo">配置SpringBoot的一个小demo</h2>
+        <content type="html"><![CDATA[<h2 id="配置springboot的一个小demo">配置SpringBoot的一个小demo</h2>
 <h3 id="前言">前言</h3>
 <p>不得不吐槽一句，C#在国内的工作也太难找了点，没办法，只能试着挤上Java这班已经人满为患的车，从头开始学习。</p>
 <blockquote>
@@ -36,7 +35,7 @@
 <p>在<strong>File-&gt;Settings-&gt;Plugins-&gt;MarketPlace</strong>里面找到<font color = red>Spring Assistant</font>点击下载即可。</p>
 <h4 id="创建项目">创建项目</h4>
 <p><strong>File-&gt;New-&gt;Project</strong> 选择左侧的<strong>Spring Assistant</strong><br>
-<img src="https://github.com/cr0wbar003/cr0wbar003.github.io/blob/master/Java_Rookie_1/NewProjectView_1.png" alt="NewProjectView_1" loading="lazy"></p>
+<img src="https://cr0wbar003.github.io/post-images/1596209694117.png" alt="" loading="lazy"></p>
 <h3 id="参考资料">参考资料</h3>
 <p><a href="https://www.cnblogs.com/weizaibug/p/6657077.html">IntelliJ IDEA搭建SpringBoot的小Demo</a></p>
 <p><a href="https://blog.csdn.net/chy555chy/article/details/84970042">InteliJ IDEA 安装spring插件 并 创建spring boot项目</a></p>
