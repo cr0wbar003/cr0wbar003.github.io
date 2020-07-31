@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://cr0wbar003.github.io/favicon.ico?v=1596210615811">
+<link rel="shortcut icon" href="https://cr0wbar003.github.io/favicon.ico?v=1596211757894">
 <link rel="stylesheet" href="https://cr0wbar003.github.io/styles/main.css">
 
 
@@ -23,7 +23,7 @@
 不得不吐槽一句，C#在国内的工作也太难找了点，没办法，只能试着挤上Java这班已经人满为患的车，从头开始学习。
 
 注：这个博客会尽量更新（虽然也没有人会看到），如果有一天不更新了 ，那一定是因..." />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Java" />
   </head>
   <body>
     <div id="app" class="main">
@@ -32,7 +32,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://cr0wbar003.github.io">
-        <img src="https://cr0wbar003.github.io/images/avatar.png?v=1596210615811" class="site-logo">
+        <img src="https://cr0wbar003.github.io/images/avatar.png?v=1596211757894" class="site-logo">
         <h1 class="site-title">Gridea</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -97,6 +97,9 @@
             <h2 class="post-title">从头开始学java（一）</h2>
             <div class="post-date">2020-07-31</div>
             
+              <div class="feature-container" style="background-image: url('https://cr0wbar003.github.io/post-images/cong-tou-kai-shi-xue-javayi.png')">
+              </div>
+            
             <div class="post-content" v-pre>
               <h2 id="配置springboot的一个小demo">配置SpringBoot的一个小demo</h2>
 <h3 id="前言">前言</h3>
@@ -117,12 +120,56 @@
 <p>在<strong>File-&gt;Settings-&gt;Plugins-&gt;MarketPlace</strong>里面找到<font color = red>Spring Assistant</font>点击下载即可。</p>
 <h4 id="创建项目">创建项目</h4>
 <p><strong>File-&gt;New-&gt;Project</strong> 选择左侧的<strong>Spring Assistant</strong><br>
-<img src="https://cr0wbar003.github.io/post-images/1596209694117.png" alt="" loading="lazy"></p>
+<img src="https://cr0wbar003.github.io/post-images/1596209694117.png" alt="" loading="lazy"><br>
+可以看到 点击[default]https://start.spring.io/ 也是一个填写项目配置信息的网页。它会直接生成一个压缩好的项目供我们下载。IntelliJ IDEA 其实也是用这个原理创建的项目，只不过这一切都在后台替我们完成了。</p>
+<p>这里基本都已经自动生成了，简单介绍下：</p>
+<ul>
+<li>
+<p>Name：项目名称</p>
+</li>
+<li>
+<p>Type：我们是Maven构建的，那么选择第一个Maven Project</p>
+</li>
+<li>
+<p>Packaging：打包类型，打包成Jar文件</p>
+</li>
+<li>
+<p>Java Version：jdk版本，选择本机的jdk版本</p>
+</li>
+<li>
+<p>Language：开发语言，选择Java</p>
+</li>
+<li>
+<p>Group：对应pom文件中的groupId，项目组织的唯一标识，对应Java包的结构</p>
+</li>
+<li>
+<p>Artifact：对应pom文件的artifactId，项目唯一标识，对应项目名称</p>
+</li>
+<li>
+<p>Version：项目版本，对应pom文件的version</p>
+</li>
+<li>
+<p>Description：项目描述，对应pom文件的description</p>
+</li>
+<li>
+<p>Package：包名</p>
+</li>
+</ul>
+<p>SpringBoot项目至少要选中Web依赖，其他的可以后期通过配置文件配置。<br>
+<img src="https://cr0wbar003.github.io/post-images/1596211732538.png" alt="" loading="lazy"></p>
 <h3 id="参考资料">参考资料</h3>
 <p><a href="https://www.cnblogs.com/weizaibug/p/6657077.html">IntelliJ IDEA搭建SpringBoot的小Demo</a></p>
 <p><a href="https://blog.csdn.net/chy555chy/article/details/84970042">InteliJ IDEA 安装spring插件 并 创建spring boot项目</a></p>
 
             </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://cr0wbar003.github.io/tag/aou_L0HGr/" class="tag">
+                    Java
+                  </a>
+                
+              </div>
             
             
               <div class="next-post">

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cr0wbar003.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-31T15:50:18.312Z</updated>
+    <updated>2020-07-31T16:09:20.444Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cr0wbar003.github.io"/>
     <link rel="self" href="https://cr0wbar003.github.io/atom.xml"/>
@@ -35,7 +35,43 @@
 <p>在<strong>File-&gt;Settings-&gt;Plugins-&gt;MarketPlace</strong>里面找到<font color = red>Spring Assistant</font>点击下载即可。</p>
 <h4 id="创建项目">创建项目</h4>
 <p><strong>File-&gt;New-&gt;Project</strong> 选择左侧的<strong>Spring Assistant</strong><br>
-<img src="https://cr0wbar003.github.io/post-images/1596209694117.png" alt="" loading="lazy"></p>
+<img src="https://cr0wbar003.github.io/post-images/1596209694117.png" alt="" loading="lazy"><br>
+可以看到 点击[default]https://start.spring.io/ 也是一个填写项目配置信息的网页。它会直接生成一个压缩好的项目供我们下载。IntelliJ IDEA 其实也是用这个原理创建的项目，只不过这一切都在后台替我们完成了。</p>
+<p>这里基本都已经自动生成了，简单介绍下：</p>
+<ul>
+<li>
+<p>Name：项目名称</p>
+</li>
+<li>
+<p>Type：我们是Maven构建的，那么选择第一个Maven Project</p>
+</li>
+<li>
+<p>Packaging：打包类型，打包成Jar文件</p>
+</li>
+<li>
+<p>Java Version：jdk版本，选择本机的jdk版本</p>
+</li>
+<li>
+<p>Language：开发语言，选择Java</p>
+</li>
+<li>
+<p>Group：对应pom文件中的groupId，项目组织的唯一标识，对应Java包的结构</p>
+</li>
+<li>
+<p>Artifact：对应pom文件的artifactId，项目唯一标识，对应项目名称</p>
+</li>
+<li>
+<p>Version：项目版本，对应pom文件的version</p>
+</li>
+<li>
+<p>Description：项目描述，对应pom文件的description</p>
+</li>
+<li>
+<p>Package：包名</p>
+</li>
+</ul>
+<p>SpringBoot项目至少要选中Web依赖，其他的可以后期通过配置文件配置。<br>
+<img src="https://cr0wbar003.github.io/post-images/1596211732538.png" alt="" loading="lazy"></p>
 <h3 id="参考资料">参考资料</h3>
 <p><a href="https://www.cnblogs.com/weizaibug/p/6657077.html">IntelliJ IDEA搭建SpringBoot的小Demo</a></p>
 <p><a href="https://blog.csdn.net/chy555chy/article/details/84970042">InteliJ IDEA 安装spring插件 并 创建spring boot项目</a></p>
