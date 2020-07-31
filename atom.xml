@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cr0wbar003.github.io</id>
+    <title>Gridea</title>
+    <updated>2020-07-31T15:18:58.543Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://cr0wbar003.github.io"/>
+    <link rel="self" href="https://cr0wbar003.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://cr0wbar003.github.io/images/avatar.png</logo>
+    <icon>https://cr0wbar003.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[从头开始学java（一）]]></title>
+        <id>https://cr0wbar003.github.io/post/cong-tou-kai-shi-xue-javayi/</id>
+        <link href="https://cr0wbar003.github.io/post/cong-tou-kai-shi-xue-javayi/">
+        </link>
+        <updated>2020-07-31T14:49:47.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="配置springboot的一个小demo">配置SpringBoot的一个小demo</h2>
+<h3 id="前言">前言</h3>
+<p>不得不吐槽一句，C#在国内的工作也太难找了点，没办法，只能试着挤上Java这班已经人满为患的车，从头开始学习。</p>
+<blockquote>
+<p>注：这个博客会尽量更新（虽然也没有人会看到），如果有一天不更新了 ，那一定是因为我找到新的工作了（微笑）</p>
+</blockquote>
+<h3 id="正文">正文</h3>
+<h4 id="环境搭建">环境搭建</h4>
+<p>好了好了闲言少叙，我们现在就开始SpringBoot的搭建。</p>
+<p>在搭建之前 必不可少的是要先配置好语言的环境：</p>
+<h5 id="ide"><em>IDE</em></h5>
+<p>对比了一下之后我选择了 <strong>IntelliJ IDEA</strong>，别问，问就是JetBrains脑残粉！</p>
+<h5 id="java"><em>Java</em></h5>
+<p>Java版本我选择14.0.2，这个可以自行选择下载。</p>
+<hr>
+<p>在下载了<strong>IntelliJ IDEA</strong>社区版的最新版本之后我发现其中并没有直接包含<font color = red>Spring Initializr</font>，而是要我们自己去寻找。</p>
+<p>在<strong>File-&gt;Settings-&gt;Plugins-&gt;MarketPlace</strong>里面找到<font color = red>Spring Assistant</font>点击下载即可。</p>
+<h4 id="创建项目">创建项目</h4>
+<p><strong>File-&gt;New-&gt;Project</strong> 选择左侧的<strong>Spring Assistant</strong><br>
+<img src="https://github.com/cr0wbar003/cr0wbar003.github.io/blob/master/Java_Rookie_1/NewProjectView_1.png" alt="NewProjectView_1" loading="lazy"></p>
+<h3 id="参考资料">参考资料</h3>
+<p><a href="https://www.cnblogs.com/weizaibug/p/6657077.html">IntelliJ IDEA搭建SpringBoot的小Demo</a></p>
+<p><a href="https://blog.csdn.net/chy555chy/article/details/84970042">InteliJ IDEA 安装spring插件 并 创建spring boot项目</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://cr0wbar003.github.io/post/hello-gridea/</id>
+        <link href="https://cr0wbar003.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
